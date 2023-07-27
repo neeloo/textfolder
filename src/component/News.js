@@ -121,8 +121,8 @@ export class News extends Component {
                 <h1 className="text-center">NewMonkey - Top headlines</h1>
                 {this.state.loading && <Spinner />}
                 <div className="row">
-                    {/* {!this.state.loading && this.state.articles.map((element) => { */}
-                    {this.state.articles.map((element) => {
+                    {!this.state.loading && this.state.articles.map((element) => {
+                   
                         return <div className="col-md-4" key={element.url}>
 
                             {/* use find constent of words used in articles using slice() */}
